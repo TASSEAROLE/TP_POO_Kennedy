@@ -1,0 +1,26 @@
+.text-field:error {
+    -fx-border-color: #ff0000;
+    -fx-border-width: 2px;
+}
+
+.label-error {
+    -fx-text-fill: #ff0000;
+    -fx-font-weight: bold;
+}
+/* Style des boutons d'appareil */
+.device-button {
+    -fx-background-radius: 8;
+    -fx-padding: 10;
+    -fx-background-color: transparent;
+}
+
+.device-button:selected {
+    -fx-background-color: #e3f2fd;
+    -fx-border-color: #2196F3;
+    -fx-border-radius: 8;
+    -fx-border-width: 2;
+}
+
+.device-button:hover {
+    -fx-background-color: #f5f5f5;
+}
